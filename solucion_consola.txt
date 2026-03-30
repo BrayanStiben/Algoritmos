@@ -1,0 +1,11 @@
+Entiendo. Sigues recibiendo exactamente el mismo error porque aún no has cerrado esta ventana de la terminal y Windows no ha recargado los programas instalados.
+
+Como esta consola es la misma de antes de que yo te instalara el programa en el paso pasado, sigue buscando en lugares incorrectos.
+
+Para arreglar tu consola actual sin tener que cerrarla, copia este texto completito y pégalo en tu consola, luego presiona Enter:
+
+$env:Path = "$env:LOCALAPPDATA\Programs\Python\Python312;$env:LOCALAPPDATA\Programs\Python\Python312\Scripts;$env:Path"
+
+Una vez que lo pegues y des Enter, el error de Microsoft Store desaparecerá en esta ventana. Ahora sí podrás escribir y te funcionará perfectamente:
+
+python main.py
