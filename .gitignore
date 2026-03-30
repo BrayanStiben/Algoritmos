@@ -4,3 +4,5 @@ data/master/
 outputs/
 __pycache__/
 *.pyc
+.venv/
+.idea/
